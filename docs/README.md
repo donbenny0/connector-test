@@ -1,1 +1,0 @@
-This connector has sample `service` , `event`, `job` & `merchant-center-custom-application` applications
