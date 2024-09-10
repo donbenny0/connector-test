@@ -4,10 +4,6 @@ import { Upload } from '@aws-sdk/lib-storage';
 import CustomError from '../errors/custom.error';
 import { logger } from '../utils/logger.utils';
 import { allOrders } from '../orders/fetch.orders';
-import dotenv from 'dotenv';
-
-// Load environment variables from .env file
-dotenv.config();
 
 // Configure AWS SDK v3 S3 client
 const s3Client = new S3Client({
